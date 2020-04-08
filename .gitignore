@@ -37,12 +37,11 @@ Icon
 
 # Package Files #
 *.jar
-*.war
+*.Fgar
 *.ear
 
 ### Gradle ###
 # Exclude Folder List #
-.gradle/
 build/
 
 
