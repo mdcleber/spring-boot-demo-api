@@ -29,7 +29,7 @@ public class EmployeeController {
     EmployeeRepository repository;
 
     @Autowired
-    private ModelMapper mapper;
+    ModelMapper mapper;
 
     @GetMapping("/")
     public ResponseEntity<List<EmployeeDto>> getAll() {
